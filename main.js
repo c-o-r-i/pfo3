@@ -30,7 +30,7 @@ console.log(" ")
 
         area = base * altura;
 
-    Y retorna el valor de area:
+    Y finalmente retorna el valor del área:
 
         return "El área del rectángulo es: " + area;
 */
@@ -54,7 +54,7 @@ console.log(" ")
 console.log(contarPalabras("Tengo hambre y sueño"))
 console.log(" ")
 console.log("/////////////////////////////////////////////////////////////////")
-console.log(" ")
+
 
 /*
     Escribí una funcion que cuenta las cantidad de palabras que tiene una cadena.
@@ -71,6 +71,9 @@ console.log(" ")
     el resultado en la variable "totalPalabras". 
         totalPalabras = cadena.split(/\s\).length
 
+    Finalmente la función retorna la cantidad de palabras de la cadena: 
+        return "La cadena ingresada tiene " + totalPalabras + " palabras";
+
 */
 
 
@@ -79,7 +82,7 @@ Escribe una función que tome una cadena como parámetro y devuelva la cadena in
 
 function invertirCadena(cadena) {
     console.log("Cadena: " + cadena);
-    cadenaInvertidaCadena = cadena.split('').reverse().join('');
+    cadenaInvertida = cadena.split('').reverse().join('');
     return cadenaInvertida;
 }
 
@@ -92,7 +95,7 @@ console.log(" ")
 console.log(invertirCadena("Tengo hambre y sueño"))
 console.log(" ")
 console.log("///////////////////////////////////////////////////////////////")
-console.log(" ")
+
 
 /* 
     Escribí una funcion que invierte los caracteres de una cadena.
@@ -113,7 +116,7 @@ console.log(" ")
     que se guarda en la variable cadenaInvertida:
         cadenaInvertida = cadena.split('').reverse().join('');
 
-    Y finalmente la función retorna la cadena invertida:
+    Finalmente la función retorna la cadena invertida:
         return cadenaInvertida
 
 */
@@ -127,7 +130,6 @@ function esPalindromo(cadena) {
     return "La cadena es un palíndromo? " + (cadenaInvertida === cadena);
 }
 
-
 console.log("Solución Ejercicio 4: Encontrar un palíndromo")
 console.log(" ")
 console.log(esPalindromo("yatay"))
@@ -137,7 +139,7 @@ console.log(" ")
 console.log(esPalindromo("ojo"))
 console.log(" ")
 console.log("//////////////////////////////////////////////////////////////")
-console.log(" ")
+
 
 /*
     Escribí una función que devuelve "true" si una cadena ingresada es palíndromo.
