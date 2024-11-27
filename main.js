@@ -16,7 +16,7 @@ console.log(" ")
 console.log(calcAreaRect(110, 2433))
 console.log(" ")
 console.log("/////////////////////////////////////////////////////////////////////")
-console.log(" ")
+
 
 /*
     Escribí una función que calcula el área de un rectángulo.
@@ -168,7 +168,7 @@ function edadCanina() {
         console.log("La edad ingresada no es válida")
         return;
     }
-    edadHumana = edad * 7;
+    edadHumana = edadPerro * 7;
     console.log("El perro tiene el equivalente a " + edadHumana + " años humanos.")
 }
 
@@ -184,7 +184,7 @@ console.log("//////////////////////////////////////////////////////////////////"
 
 
 /* 
-    Escribí una función que toma una edad perruna y calcula el equivalente en años humanos.
+    Escribí una función que toma una edad perruna y calcula el equivalente en años humanos. 
     Esta función inicialmente imprime por pantalla la solicitud de ingresar por teclado la edad del perro:
         (prompt("Ingresar la edad del perro:")
 
