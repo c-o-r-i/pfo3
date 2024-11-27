@@ -163,6 +163,7 @@ canina, que equivale a 7 veces la edad humana */
 
 function edadCanina() {
     edadPerro = parseInt(prompt("Ingresar la edad del perro:"))
+    console.log("Edad perruna ingresada: " + edadPerro)
 
     if (isNaN(edadPerro) || edadPerro <= 0) {
         console.log("La edad ingresada no es válida")
